@@ -4,7 +4,8 @@ public class DemoClass {
 	static String str = "chrome";
 	
 	public static void main(String[] args) {
-		System.out.println();
+		driver.findElement(By.id("submit")).click();
+		System.out.println("Clicked submit");
 	}
 	
 	
