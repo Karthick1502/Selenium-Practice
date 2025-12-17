@@ -4,7 +4,8 @@ public class DemoClass {
 	static String str = "chrome";
 	
 	public static void main(String[] args) {
-		System.out.println();
+		System.out.println("kathick");
+		System.out.println("new lines");
 	}
 	
 	
