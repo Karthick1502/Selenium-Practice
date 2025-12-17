@@ -1,11 +1,14 @@
 package com.karthi.seleniumPrac;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
 public class DemoClass {
 	static String str = "chrome";
 	
+	
 	public static void main(String[] args) {
-		System.out.println("kathick");
-		System.out.println("new lines");
+		driver.findElement(By.id("submit")).click();
 	}
 	
 	
