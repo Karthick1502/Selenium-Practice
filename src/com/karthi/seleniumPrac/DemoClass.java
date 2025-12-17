@@ -9,6 +9,7 @@ public class DemoClass {
 	
 	public static void main(String[] args) {
 		driver.findElement(By.id("submit")).click();
+		System.out.println("Clicked submit");
 	}
 	
 	
